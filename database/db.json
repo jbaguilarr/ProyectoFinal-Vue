@@ -1,0 +1,26 @@
+{
+  "area": [
+    {
+      "id": 1,
+      "NombreArea": "Finanzas",
+      "NombreEncargado": "Jose Linares",
+      "NroFuncionario": 11
+    },
+    {
+      "id": 2,
+      "NombreArea": "Sistemas",
+      "NombreEncargado": "Juan Carlos Moreales",
+      "NroFuncionario": 12
+    }
+  ],
+  "activos": [
+    {
+      "id": 1,
+      "TipoActivo": "Computadora",
+      "Marca": "HP",
+      "Modelo": "Pavilion 360",
+      "Estado": "NUEVO",
+      "AreaId": 1
+    }
+  ]
+}
