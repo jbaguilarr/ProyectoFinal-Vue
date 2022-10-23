@@ -30,8 +30,8 @@
                         Activos
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Lista activos</a></li>
-                        <li><a class="dropdown-item" href="#">Nuevo activo</a></li>
+                        <li><router-link class="dropdown-item" to="/activos">Lista activos</router-link></li>
+                        <li><router-link class="dropdown-item" :to="{ name:'activosNuevo',force:true}" >Nuevo activo</router-link></li>
                     </ul>
                 </li>
             </ul>

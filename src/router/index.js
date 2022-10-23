@@ -20,14 +20,25 @@ const routes=[
     {
         path: '/areas/modificar/:id',
         name: 'areasModificar',
-        component: () => import('../views/AreaView.vue')
+        component: () => import('../views/AreaEdicionView.vue')
     },
 
     {
         path: '/activos',
         name: 'activos',
-        component: () => import('../views/ActivoView.vue')
-    }
+        component: () => import('../views/ActivoListView.vue')
+    },
+    {
+        path: '/activos/nuevo',
+        name: 'activosNuevo',
+        component: () => import('../views/ActivoView.vue'),
+        
+    },
+    {
+        path: '/activos/modificar/:id',
+        name: 'activosModificar',
+        component: () => import('../views/ActivoEdicionView.vue')
+    },
 ]
 
 const router = createRouter({

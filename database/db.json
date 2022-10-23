@@ -3,14 +3,20 @@
     {
       "id": 1,
       "NombreArea": "Finanzas",
-      "NombreEncargado": "Jose Linares",
-      "NroFuncionario": 11
+      "NombreEncargado": "Marci antonio lineras",
+      "NroFuncionario": "18"
     },
     {
       "id": 2,
-      "NombreArea": "Sistemas",
-      "NombreEncargado": "Juan Carlos Moreales",
-      "NroFuncionario": 12
+      "NombreArea": "Sistemass",
+      "NombreEncargado": "Juan Carlos Morealess",
+      "NroFuncionario": "12"
+    },
+    {
+      "id": 3,
+      "NombreArea": "Abogado",
+      "NombreEncargado": "almacen",
+      "NroFuncionario": "19"
     }
   ],
   "activos": [
@@ -19,8 +25,16 @@
       "TipoActivo": "Computadora",
       "Marca": "HP",
       "Modelo": "Pavilion 360",
-      "Estado": "NUEVO",
+      "Estado": "DESUSO",
       "AreaId": 1
+    },
+    {
+      "id": 2,
+      "TipoActivo": "IMPRESO",
+      "Marca": "CANONB",
+      "Modelo": "3323d",
+      "Estado": "USADO",
+      "AreaId": 2
     }
   ]
 }
